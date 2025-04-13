@@ -1,0 +1,15 @@
+'prompt_wordcount', 'resa_wordcount', 'resb_wordcount': wordcount for prompt and responses from model A and B 
+
+'sent_a','sent_b': VADERsentiment score for responses from model a and b
+
+'readability_a', 'readability_b', 'readability_diff': Flesch Reading Ease score for responses from 
+model a and b, and also differences between the scores
+
+'n_sentence_a', 'n_sentence_b', 'n_sentence_diff': number of setences from the responses of model a and b and the differences between them
+
+'non_alpha_a','non_alpha_b', 'non_alpha_diff': non-alphabetical characters in the responses of model and b and the diffences between them
+
+'sim_prompt_a_res', 'sim_prompt_b_res','sim_diff', 'sim_res_a_res_b': cosine similarity of the embedding between: prompt vs. model A/B responses, 
+model A vs. model B responses, differences between them.
+
+'class_label_0', 'class_label_1','class_label_2': label (Model A Win, Model B Win, Tie)
